@@ -1,0 +1,52 @@
+#sidebar {
+    background-color: #363740;
+}
+
+#main, #sidebar {
+    min-height: 100vh;
+}
+
+/* Note: I wanted to modify the font size to be identical to the Figma example provided however I wasn't sure how to do so outside of using the !important tag to overwrite bootstrap's default values */
+
+.fs-1 {
+    font-size: 24px !important;
+}
+
+.fs-2 {
+    font-size: 19px !important;
+}
+
+.fs-3 {
+    font-size: 40px !important;
+}
+
+.fs-4 {
+    font-size: 16px !important;
+}
+
+.fs-5 {
+    font-size: 12px !important;
+}
+
+.fs-6 {
+    font-size: 14px !important;
+}
+
+/* Note: I used the exact same font as provided in the Figma layout to make this bootstrap version resemble it as closely as possible  */
+
+p {
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+}
+
+/* Rounded border to make my version similar to the Figma example */
+
+.border {
+    border-radius: 5px;
+}
+
+/* Responsive web design (desktop view) information goes below  */
+
+@media screen and (min-width:650px) {
+    
+}

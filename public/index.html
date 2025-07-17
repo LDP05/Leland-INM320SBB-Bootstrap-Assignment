@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Leland INM320SBB Frontend Framework</title>
+
+    <!-- Bootstrap CSS Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- Document CSS Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <!-- Google Font Link (Identical to Figma font) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid text-center">
+        <div class="row">
+            <!-- Sidebar -->
+            <aside id="sidebar" class="col-2">
+                <p class="fs-2 text-white">Dashboard</p>
+
+                <p class="fs-4 text-white">Overview</p>
+                <p class="fs-4 text-white">Tickets</p>
+                <p class="fs-4 text-white">Ideas</p>
+                <p class="fs-4 text-white">Contacts</p>
+                <p class="fs-4 text-white">Agents</p>
+                <p class="fs-4 text-white">Articles</p>
+
+                <p class="fs-4 text-white">Settings</p>
+                <p class="fs-4 text-white">Subscription</p>
+            </aside>
+            <!-- Main content -->
+            <main id="main" class="col-10 d-flex flex-column gap-3">
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-6 text-start">
+                            <p class="fs-1">Overview</p>
+                        </div>
+                        <div class="col-6 text-end">
+                            <p class="fs-6">Jones Ferdinand</p>
+                        </div>
+                    </div>
+                </div>
+
+                    <!-- Top 4 blocks -->
+
+                <div class="container-fluid text-center">
+                    <div class="row gap-3">
+                        <div class="col border">
+                            <p class="fs-2 text-secondary">Unresolved</p>
+                            <p class="fs-3">60</p>
+                        </div>
+                        <div class="col border">
+                            <p class="fs-2 text-secondary">Overdue</p>
+                            <p class="fs-3">16</p>
+                        </div>
+                        <div class="col border">
+                            <p class="fs-2 text-secondary">Open</p>
+                            <p class="fs-3">43</p>
+                        </div>
+                        <div class="col border">
+                            <p class="fs-2 text-secondary">On Hold</p>
+                            <p class="fs-3">64</p>
+                        </div>
+                    </div>
+                </div>
+
+                    <!-- Middle block w/ graph -->
+
+                <div class="container-fluid text-center">
+                    <section class="row border">
+                       <div class="col-9">
+                                <p class="text-start s-2">Today's trends</p>
+                                <div class="row">
+                                    <p class="col fs-5 text-start text-secondary">as of 25 May 2019, 9:41 PM</p>
+                                    <p class="col-4 fs-5 text-start text-secondary">— Today — Yesterday</p>
+                                </div>
+
+                                <div class="col">
+                                    <img class="img-fluid float-start" src="assets/images/full graph.png" alt="graph">
+                                </div>
+                        </div>
+                        <div class="col-3 border-start row">
+                            <div class="border-bottom">
+                                <p class="fs-4 text-secondary">Resolved</p>
+                                <p class="fs-1">449</p> 
+                            </div>
+
+                            <div class="border-bottom">
+                                <p class="fs-4 text-secondary">Recieved</p>
+                                <p class="fs-1">426</p>
+                            </div>
+
+                            <div class="border-bottom">
+                                <p class="fs-4 text-secondary">Average first response time</p>
+                                <p class="fs-1">33m</p>
+                            </div>
+
+                            <div class="border-bottom">
+                                <p class="fs-4 text-secondary">Average response time</p>
+                                <p class="fs-1">3h 8m</p>
+                            </div>
+
+                            <div class="border-bottom">
+                                <p class="fs-4 text-secondary">Resolution within SLA</p>
+                                <p class="fs-1">94%</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+
+                    <!-- Bottom two blocks -->
+                <div class="container-fluid">
+                    <div class="row gap-3">
+
+                        <!-- Left block -->
+                        <section class="col border">
+                            <div class="row">
+                                <div class="col-8 text-start">
+                                    <p class="fs-2">Unresolved tickets</p>
+                                    <p class="fs-5 text-secondary">Group: Support</p>
+                                </div>
+                                <div class="col-4 text-end">
+                                    <p class="fs-4 text-primary">View details</p>
+                                </div>
+                            </div>
+
+
+                            <div class="row border-top">
+                                <div class="col-8 text-start text-secondary">
+                                    <p class="fs-6">Waiting on Feature Request</p>
+                                </div>
+                                <div class="col-4 text-end text-secondary">
+                                    <p class="fs-6 text-secondary">4230</p>
+                                </div>
+                            </div>
+
+
+                            <div class="row border-top">
+                                <div class="col-8 text-start text-secondary">
+                                    <p class="fs-6">Awaiting Customer Response</p>
+                                </div>
+                                <div class="col-4 text-end text-secondary">
+                                    <p class="fs-6 text-secondary">1005</p>
+                                </div>
+                            </div>
+
+
+                            <div class="row border-top">
+                                <div class="col-8 text-start text-secondary">
+                                    <p class="fs-6">Awaiting Developer Fix</p>
+                                </div>
+                                <div class="col-4 text-end text-secondary">
+                                    <p class="fs-6 text-secondary">914</p>
+                                </div>
+                            </div>
+
+
+                            <div class="row border-top">
+                                <div class="col-8 text-start text-secondary">
+                                    <p class="fs-6">Pending</p>
+                                </div>
+                                                                
+                                <div class="col-4 text-end text-secondary">
+                                    <p class="fs-6 text-secondary">281</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Right block -->
+                        <section class="col border">
+                            <div class="row">
+                                <div class="col-8 text-start">
+                                    <p class="fs-2">Tasks</p>
+                                    <p class="fs-5 text-secondary">Today</p>
+                                </div>
+                            
+                                <div class="col-4 text-end">
+                                    <p class="fs-4 text-primary">View all</p>
+                                </div>
+
+                                <div class="row border-top">
+                                    <div class="col-8 text-start text-secondary">
+                                        <p class="fs-6">Create new task</p>
+                                    </div>
+                                    <div class="col-4 text-end text-secondary">
+                                        <button type="button" class="btn btn-secondary">+</button>
+                                    </div>
+                                </div>
+
+
+                                 <div class="row border-top">
+                                    <div class="col-8 text-start text-secondary">
+                                        <p class="fs-6">Finish ticket update</p>
+                                    </div>
+                                    <div class="col-4 text-end text-secondary">
+                                        <button type="button" class="btn btn-warning">URGENT</button>
+                                    </div>
+                                </div>
+
+
+                                
+                                 <div class="row border-top">
+                                    <div class="col-8 text-start text-secondary">
+                                        <p class="fs-6">Create new example ticket</p>
+                                    </div>
+                                    <div class="col-4 text-end text-secondary">
+                                        <button type="button" class="btn btn-success">NEW</button>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="row border-top">
+                                    <div class="col-8 text-start text-secondary">
+                                        <p class="fs-6">Update new ticket</p>
+                                    </div>
+                                    <div class="col-4 text-end text-secondary">
+                                        <button type="button" class="btn btn-secondary">DEFAULT</button>
+                                    </div>
+                                </div>
+                                
+
+                   
+                            </div>
+                        </section>
+                        
+                    </div>
+                </div>
+
+
+            </main>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap JS script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
